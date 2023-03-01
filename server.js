@@ -1,0 +1,1 @@
+paymentdetail = "sdfxgchvnbm,./,mnbvcxzxcvfbnmbvcxz"
