@@ -1,0 +1,45 @@
+git config --global user.name "enter name"
+
+git config --global user.email "enter email"
+
+ls -lart   // to show how many files and folder exist in your working folder
+
+touch index.html  // to create any file
+
+clear           // to clear the terminal
+
+git add index.html    // to add an particular file to staging area
+
+git add .            // to add all files and folder in staging area
+
+git commit -m "commit message"        // to just commit your whole staging area or we can say confirm to git that we added files
+
+git commit -a -m "commit message"   // to skip git add but this not must be an very new file
+
+git log                        // to show all your previous commit
+
+git log -p -n               // to show your previus no of commit (n=1,2,3.....) 
+
+q                            // to quit from an command
+
+git diff                   // difference between staging area and working files
+
+git diff --staged         // difference between staging area and previous commit
+
+git rm --cached index.html  // to delete any files from staging area
+
+git rm index.html        // to delete directly from github
+
+touch .gitignore          // most importnat file to store secret data and this files not show in git
+
+git branch               // to show how many branches available in your working directory
+
+git branch newbranch        // to create a new branch
+
+git checkout  newbranch       //  to shift any brnach
+
+git merge   newbrnach         //to merge any branch in our main or master branch
+
+git remote origin  url          // connect your local to internet sercer
+
+git push -u origin master          // upload working directory to your repository
